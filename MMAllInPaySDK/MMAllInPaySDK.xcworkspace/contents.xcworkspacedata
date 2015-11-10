@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:AllInPaySDK"
+      name = "AllInPaySDK">
+      <FileRef
+         location = "group:APayRes.bundle">
+      </FileRef>
+      <FileRef
+         location = "group:APMPPassGuardCtrlBundle.bundle">
+      </FileRef>
+      <Group
+         location = "group:include"
+         name = "include">
+         <Group
+            location = "group:APayLib"
+            name = "APayLib">
+            <FileRef
+               location = "group:APay.h">
+            </FileRef>
+            <FileRef
+               location = "group:ChineseToPinyinResource.h">
+            </FileRef>
+            <FileRef
+               location = "group:HanyuPinyinOutputFormat.h">
+            </FileRef>
+            <FileRef
+               location = "group:NSString+PinYin4Cocoa.h">
+            </FileRef>
+            <FileRef
+               location = "group:pinyin.h">
+            </FileRef>
+            <FileRef
+               location = "group:PinYin4Objc.h">
+            </FileRef>
+            <FileRef
+               location = "group:PinyinFormatter.h">
+            </FileRef>
+            <FileRef
+               location = "group:PinyinHelper.h">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:libAPayLib.a">
+      </FileRef>
+      <Group
+         location = "group:TrustDefenderMobile.framework"
+         name = "TrustDefenderMobile.framework">
+         <FileRef
+            location = "group:Headers">
+         </FileRef>
+         <FileRef
+            location = "group:Resources">
+         </FileRef>
+         <FileRef
+            location = "group:TrustDefenderMobile">
+         </FileRef>
+         <Group
+            location = "group:Versions"
+            name = "Versions">
+            <Group
+               location = "group:A"
+               name = "A">
+               <Group
+                  location = "group:Headers"
+                  name = "Headers">
+                  <FileRef
+                     location = "group:TrustDefenderMobile+RiskModule.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TrustDefenderMobile.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Resources"
+                  name = "Resources">
+                  <FileRef
+                     location = "group:Info.plist">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:TrustDefenderMobile">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Current">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
+   <FileRef
+      location = "group:MMAllInPaySDK.podspec">
+   </FileRef>
+   <FileRef
+      location = "group:MMAllInPaySDK.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
