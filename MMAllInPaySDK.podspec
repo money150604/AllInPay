@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.name         = "MMAllInPaySDK"
   s.version      = "0.0.1"
   s.license  = { :type => 'Copyright', :text => 'Copyright(C)2015 通联支付网络服务股份有限公司.' }
-  s.summary      = "The Official iOS SDK of WeChat from AllInPay.."
+  s.summary      = "The Official iOS SDK of llInPaySDK from AllInPay."
   s.description  = <<-DESC 自动配置环境
                    DESC
 
