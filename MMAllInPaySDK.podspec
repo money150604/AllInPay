@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.vendored_libraries = 'AllInPaySDK/libAPayLib.a'
   s.source_files = 'AllInPaySDK/include/APayLib/*.{h,m}'
   s.resources = ['AllInPaySDK/APayRes.bundle','AllInPaySDK/APMPPassGuardCtrlBundle.bundle']
+  s.license          = 'MIT'
   s.frameworks = [
     'CoreTelephony',
     'CoreLocation',
