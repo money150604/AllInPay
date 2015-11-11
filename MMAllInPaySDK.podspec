@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
     'CoreLocation',
     'Security',
     'SystemConfiguration',
-    'QuarzCore',
+    'QuartzCore',
     'CoreText',
     'AudioToolbox',
     'CoreGraphics'
