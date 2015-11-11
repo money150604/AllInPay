@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.license  = { :type => 'Copyright', :text => 'Copyright(C)2015 通联支付网络服务股份有限公司.' }
   s.summary      = "The Official iOS SDK of AllInPaySDK from AllInPay."
-  s.description  = "通联支付开放平台SDK 持续更新"
+  s.description  = "通联支付开放平台SDK,自动配置工程 持续更新"
 
   s.homepage     = "http://113.108.182.3:8282/techsp/helper/procedure/mobile/procedure.html"
   s.authors  = { 'AllInPay' => 'support@allinpay.com' }
